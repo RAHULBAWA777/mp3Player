@@ -1,0 +1,112 @@
+body{
+    background-color: darkgray
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Pacifico', cursive;
+}
+nav ul{
+    height: 350px;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+    list-style-type: none;
+   align-items: center;
+}
+nav ul li{
+padding: 0 70px;
+}
+.brand img{
+    padding: 18px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.container{
+    min-height: 74vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    background-image:url("1626442057935-2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.containerTwo{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right:0;
+    min-width: 20vw;
+    min-height: 74vh;
+    display: flex;
+}
+.songItem{
+    height: 200px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    width: 20vw;
+    font-size: 50px;    
+}
+.songItem img{
+    width: 113px;   
+    margin: 0 90px;
+    margin-right: 1px; 
+}
+.songlistplay{
+    margin: 0 1rem;
+}
+.timestamp{
+    margin:0 1em;
+}
+.progress{
+    position: sticky;
+    bottom: 0;
+    height: 440px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 0px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songlistplay i{
+    cursor: pointer;
+}
+#bar{
+    cursor: pointer;
+    width: 80vw;
+    height: 5vh;
+    margin-left:600px ;
+}
+.gif img{
+    position: absolute;
+    left: 130rem;
+    top: 130rem;
+    width: 120rem;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+#masterSongName{
+    margin: 25vh 75vw;
+    font-size: 10rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
